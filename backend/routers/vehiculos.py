@@ -1,6 +1,6 @@
 from typing import Optional
 from fastapi import APIRouter, HTTPException
-from database import obtener_conexion
+from backend.database import obtener_conexion
 from models.vehiculo import Vehiculo
 from schemas.vehiculo_schema import VehiculoCreate, VehiculoUpdate, VehiculoResponse
 

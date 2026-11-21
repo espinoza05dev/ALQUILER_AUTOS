@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from database import crear_tablas, crear_admin_por_defecto
+from backend.database import crear_tablas, crear_admin_por_defecto
 from routers import vehiculos, login
 
 app = FastAPI(title="Rent a Car API")

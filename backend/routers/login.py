@@ -1,5 +1,5 @@
 from fastapi import APIRouter, HTTPException
-from database import obtener_conexion
+from backend.database import obtener_conexion
 from models.usuario import Usuario
 from schemas.login_schema import LoginRequest, LoginResponse
 
